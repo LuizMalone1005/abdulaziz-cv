@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abdul Aziz Hamidu - CV</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    a {
+      text-decoration: none;
+      color: #007acc;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #005a99;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .sidebar {
+      width: 30%;
+      background: #e6ecf0;
+      padding: 30px 20px;
+    }
+    .main {
+      width: 70%;
+      padding: 30px 40px;
+    }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #007acc;
+    }
+    .title {
+      margin-top: 5px;
+      font-size: 16px;
+      color: #555;
+    }
+    .section {
+      margin-top: 30px;
+    }
+    .section h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 5px;
+      color: #007acc;
+    }
+    .section ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+    .section li {
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+    .contact p, .skills p, .hobbies p {
+      font-size: 14px;
+      margin: 6px 0;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+    .job h3, .edu h3, .project h3 {
+      margin: 20px 0 5px;
+      color: #333;
+    }
+    .job p, .edu p, .project p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .sidebar, .main {
+        width: 100%;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <img src="profile.jpg" class="profile-pic" alt="Abdul Aziz Hamidu's Profile Photo">
+    
+    <div class="section contact">
+      <h2>CONTACT</h2>
+      <p><strong>Phone:</strong> +233 240 646 591</p>
+      <p><strong>Email:</strong> <a href="mailto:luizmalone1005@gmail.com">luizmalone1005@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/feed/" target="_blank" rel="noopener noreferrer">Abdul Aziz</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/LuizMalone1005" target="_blank" rel="noopener noreferrer">luizmalone1005</a></p>
+    </div>
+
+    <div class="section skills">
+      <h2>KEY SKILLS</h2>
+      <ul>
+        <li>JavaScript</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Figma</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Kotlin</li>
+        <li>Android Studio</li>
+      </ul>
+    </div>
+
+    <div class="section hobbies">
+      <h2>HOBBIES</h2>
+      <ul>
+        <li>Exploring New Programming Languages</li>
+        <li>Building Mobile Apps</li>
+        <li>Participating in Hackathons or Coding Challenges</li>
+        <li>Contributing to Open Source Projects</li>
+        <li>Tech Blogging or Creating Tutorials</li>
+        <li>Reading Tech Articles & Books</li>
+        <li>UI/UX Design Practice (e.g., on Figma)</li>
+        <li>Listening to Tech Podcasts</li>
+        <li>Playing Strategy Games or Chess</li>
+        <li>Jogging or Meditation</li>
+        <li>Playing football</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <h1>Abdul Aziz Hamidu</h1>
+    <p class="title">Computer Science Student</p>
+
+    <div class="section">
+      <h2>PROFILE SUMMARY</h2>
+      <p>
+        Third-year Computer Science student with strong skills in Java, mobile app development (Kotlin & Android Studio), and web technologies (HTML, CSS, JavaScript). Passionate about solving real-world problems through technology and currently building smart scheduling and finance authorization apps. Eager to gain hands-on experience through a software development internship or junior developer role.
+      </p>
+    </div>
+
+    <div class="section edu">
+      <h2>EDUCATION</h2>
+      <h3>Bachelor of Science in Computer Science</h3>
+      <p>Level 300 Student</p>
+    </div>
+
+    <div class="section job">
+      <h2>EXPERIENCE</h2>
+      <h3>Pump Attendant – Glory Oil Company Limited</h3>
+      <p><strong>Nov 2019 – June 2021</strong></p>
+      <ul>
+        <li>Dispensed petrol, diesel, and gas safely and accurately.</li>
+        <li>Handled customer payments via cash, card, and mobile money.</li>
+        <li>Maintained cleanliness of the station and fuel area.</li>
+        <li>Assisted with basic vehicle checks and minor cleaning.</li>
+        <li>Logged daily fuel sales and stock levels.</li>
+      </ul>
+    </div>
+
+    <div class="section project">
+      <h2>PROJECTS</h2>
+      <h3>SmartScheduler App</h3>
+      <p>Helps students manage time by suggesting productive activities during free hours based on their interests.</p>
+
+      <h3>Financial Authorization App</h3>
+      <p>Secure app for joint account users to authorize transactions remotely without visiting the bank.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
